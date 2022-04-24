@@ -23,3 +23,5 @@ This has only been tested on Linux, especially since docker is linux based and m
 - Python
 - docker-compose (tested using python package: pip install docker-compose)
 
+## ToDo
+One issue we have is that the files that are created are owned by "root" i.e. superuser. We need to research on how to change the ownership on the dev environment (like using groups) to mitigate that issue.
