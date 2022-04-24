@@ -1,0 +1,7 @@
+# Build the container using the yaml file
+docker-compose build
+# Run an initial command to setup the project on the docker (files stored 
+  locally)
+docker-compose run --rm app django-admin startproject core . 
+# Run the container
+docker-compose up
